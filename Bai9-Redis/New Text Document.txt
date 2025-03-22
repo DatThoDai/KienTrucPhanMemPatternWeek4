@@ -1,0 +1,5 @@
+docker build -t custom-redis .
+docker run -d -p 6379:6379 custom-redis
+Kiểm tra Redis:
+docker exec -it <container_id> redis-cli
+> PING

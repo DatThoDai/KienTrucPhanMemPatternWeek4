@@ -1,0 +1,4 @@
+docker build -t custom-postgres .
+docker run -d -p 5432:5432 custom-postgres
+Kiểm tra kết nối:
+docker exec -it <container_id> psql -U postgres -d mydatabase -c "SELECT * FROM users;"

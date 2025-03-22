@@ -1,0 +1,14 @@
+{
+  "name": "multistage-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js app with multi-stage Docker build",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
